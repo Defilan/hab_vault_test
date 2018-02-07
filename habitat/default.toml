@@ -9,6 +9,6 @@ path = "vault"
 
 [listener]
 type = "tcp"
-location = "127.0.0.1"
+location = "0.0.0.0"
 port = "8200"
 tls_disable = "1"

@@ -13,4 +13,3 @@ path = "vault"
 type = "tcp"
 location = "0.0.0.0"
 port = "8200"
-tls_disable = true

@@ -5,5 +5,4 @@ backend "{{cfg.backend.storage}}" {
 
 listener "{{cfg.listener.type}}" {
   address = "{{cfg.listener.location}}:{{cfg.listener.port}}"
-  tls_disable = {{cfg.listener.tls_disable}}
 }
